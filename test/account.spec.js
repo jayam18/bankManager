@@ -27,7 +27,7 @@ describe('Account', function( ) {
   });
 
   describe('#withdraw', function( ) {
-    it('successfully withdraw from the account', function( ) {
+    it('successfull & unsuccessful withdraw from the account', function( ) {
       const a1 = new Account('Bob');
       a1.AddDeposit(100);
       expect(a1).to.be.instanceof(Account);
